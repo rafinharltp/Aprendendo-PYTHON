@@ -8,3 +8,7 @@ print(frutas)
 
 frutas.remove("maca")
 print(frutas)
+
+fruta_removida = frutas.pop(1)
+print(frutas)
+print("Foi removida a fruta:",fruta_removida)
